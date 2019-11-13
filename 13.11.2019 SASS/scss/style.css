@@ -1,0 +1,39 @@
+.test .btn-success, .test .btn-danger {
+  display: block;
+  width: 100%;
+  border: 1px solid;
+  text-decoration: none;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.test {
+  margin: 10px auto;
+  width: 50%; }
+  .test .btn-success {
+    background: green;
+    color: white; }
+  .test .btn-danger {
+    background: red;
+    color: white; }
+  .test h1 {
+    font-size: 60px; }
+  .test .p1 {
+    font-size: 40px; }
+  .test p:last-child {
+    background: red;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    transition: background-color 0.5s; }
+    .test p:last-child:hover {
+      background: green; }
+
+/*# sourceMappingURL=style.css.map */
